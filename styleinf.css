@@ -18,7 +18,9 @@ padding: 0;
 background: #ccc;
 
 }
-
+#pfvtn {
+  max-width: 460px;
+}
 .nav ul {
 list-style: none;
 background-color: #c22e2e;
