@@ -119,6 +119,7 @@ transition: box-shadow 0.3s ease;
   margin-bottom: 40px;
   border: 3px solid blue;
   max-width: 90%;
+  max-height: 60%
 }
 #backToTop {
 position: fixed;
