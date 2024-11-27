@@ -1,0 +1,203 @@
+.h1 {
+font-family:'Great Vibes', momospace;
+font-size:15pt;
+margin-right: 15px;
+}
+
+#obr {
+  float: right;
+  margin-right: 15px;
+}
+#obr1 {
+  float: right;
+}
+
+body {
+margin: 0;
+padding: 0;
+background: #ccc;
+
+}
+
+.nav ul {
+list-style: none;
+background-color: #c22e2e;
+text-align: center;
+padding: 0;
+margin: 0;
+border-bottom: 3px solid #8d0a0a;
+}
+.nav li {
+font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+line-height: 40px;
+height: 40px;
+}
+
+.nav a {
+text-decoration: none;
+color: #fff;
+display: block;
+transition: .3s background-color;
+border-bottom: 3px solid #770d2d;
+border-right: 3px solid #770d2d;
+border-left: 3px hidden #770d2d;
+}
+
+.nav a:hover {
+background-color: #333baf;
+}
+
+.nav a.active {
+background-color: #fff;
+color: #444;
+cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+.nav li {
+width: 300px;
+border-bottom: none;
+height: 50px;
+line-height: 50px;
+font-size: 1.4em;
+}
+
+/* Option 1 - Display Inline */
+.nav li {
+display: inline-block;
+margin-right: 0px;
+}
+
+
+}
+
+body {
+    background: url(images/5902.mp4);
+    position: relative;
+background-size: cover;
+
+}
+#videooo {
+position: fixed;
+left: 0;
+top: 0;
+min-width: 100%;
+min-height: 100%;
+z-index: -1;
+}
+#bonj {
+    position: relative;
+    left: 0px;
+    top: -800px;
+}
+#jeveux {
+margin-left: 750px;
+margin-top: -120px;
+max-width: 500;
+max-height: 300;
+position: relative;
+}
+#los {
+background-color: rgba(255,255,255,0.5);
+}
+
+#gensh {
+  background: linear-gradient(to right, white, lightgray, lightblue);
+}
+
+#club {
+margin-left: 25%;
+margin-top: 10px;
+background-color: #f5c5c5;
+border-radius: 15%;
+box-shadow: 5px 5px red;
+font-weight: lighter;
+max-width: 600px;
+}
+
+#song {
+margin-top: 480px;
+margin-left: 760px;
+background-color: rgba(255,255,255,0.7);
+border-radius: 7%;
+max-width: 120px;
+}
+
+#rene {
+background-image: linear-gradient(to right, blue, white, red);
+max-width: 300px;
+border-radius: 15%;
+box-shadow: 5px 5px lightcoral;
+}
+
+.form-container {
+max-width: 600px;
+margin-left: 10px;
+margin-top: -700px;
+padding: 20px;
+background-image: url(./images/tower.jpg);
+border-radius: 60px;
+background-repeat: no-repeat;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+#log {
+margin-left: 10px;
+margin-top: -100px;
+}
+#backToTop {
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 15pc;
+display: none;
+/* Скрываем кнопку по умолчанию */
+color: rgb(255, 255, 255);
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#backToTop:hover {
+background-color: #753377;
+}
+
+button {
+background-color: #57144e;
+color: rgb(255, 255, 255);
+padding: 10px 10px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+width: 50%;
+margin: auto;
+margin-left: 25px;
+}
+
+button:hover {
+background-color: #87c2e6;
+}
+.shadow {
+transition: box-shadow 0.3s ease;
+}
+
+.shadow:hover {
+box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5); 
+}
+
+
+
+footer {
+text-align: center;
+padding: 1%;
+background: #8d65bb;
+color: #e3dddd;
+border-top: 3px solid #512b7e;
+}       
