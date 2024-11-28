@@ -75,6 +75,15 @@ min-height: 100%;
 z-index: -1;
 }
 
+.card-body {
+  box-shadow: 0 0 5px rgb(11, 87, 230);
+transition: box-shadow 0.3s ease;
+}
+
+.card-body:hover {
+box-shadow: 10px 10px 20px rgb(219, 9, 9);
+}
+
 #magaz {
   margin-left: 25%;
 margin-top: 10px;
