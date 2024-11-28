@@ -75,6 +75,16 @@ min-height: 100%;
 z-index: -1;
 }
 
+#magaz {
+  margin-left: 25%;
+margin-top: 10px;
+background-color: #f5c5c5;
+border-radius: 15%;
+box-shadow: 5px 5px red;
+font-weight: lighter;
+max-width: 600px;
+}
+
 .frame {
   border: 3px solid #cc3f3f;
   transition: box-shadow 0.3s ease;
