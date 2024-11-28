@@ -71,8 +71,8 @@ background-color: #444;
 }
 
 body {
-    background: url(images/large.mp4);
-    position: relative;
+  background: url(images/large.mp4);
+  position: relative;
 background-size: cover;
 
 }
@@ -80,7 +80,7 @@ background-size: cover;
 position: fixed;
 left: 0;
 top: 0;
-max-width: 100%;
+min-width: 100%;
 min-height: 100%;
 z-index: -1;
 }
