@@ -75,22 +75,20 @@ min-height: 100%;
 z-index: -1;
 }
 
-        .frame {
-            border: 3px solid #cc3f3f;
-            transition: box-shadow 0.3s ease;
-        }
+.frame {
+  border: 3px solid #cc3f3f;
+  transition: box-shadow 0.3s ease;
+}
 
-        .frame:hover {
-            box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
-        }
+.frame:hover {
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
 
+#gensh {
+  background: linear-gradient(to right, white, lightgray, lightblue);
+}
+table { margin-top: 100px; }
 
-        table { margin-top: 100px; }
-
-        .container {
-        li { float: left; margin: 1em; }
-    li:nth-child(5n+1) { clear: both; }
-    }
 
     #log {
   margin-left: 10px;
