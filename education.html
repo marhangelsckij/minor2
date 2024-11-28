@@ -49,6 +49,9 @@
     <h1 class='card-title text-center' id="magaz"><a href="#korz" style="text-decoration: none;"><font face="Great Vibes">Магазин</font></a></h1>
     <br>
     <br>
+  <input type="radio" id="price" name="sort"  onchange="sort()"> price  </input>
+             <input type="radio" id="title" name="sort"  checked onchange="sort()" > title </input>
+             <input type="text" id="search" name="search"  onchange="search()"> поиск  </input>
             <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
                 <input name="q" type="hidden" value="search">
                 <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
