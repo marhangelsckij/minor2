@@ -1,75 +1,75 @@
 [
     {
         "id": "1",
-        "title": "Товар 1",
+        "title": "Групповые очные занятия",
         "vendor_code": "111",
-        "description": "Описание 1",
-        "price": 100,
+        "description": "Проводим комфортные уроки. Особенность - коммуникация не только с учителем, но и с другими учениками",
+        "price": 1000,
         "img": "images/bb.jpg"
     },
     {
         "id": "2",
-        "title": "Товар 2",
+        "title": "Групповые онлайн занятия",
         "vendor_code": "222",
-        "description": "Описание 2",
-        "price": 200,
-        "img": "../../images/uso_002.jpg"
+        "description": "Прогресс не стоит на месте. Наши занятия вы сможете посещать из любой точки мира",
+        "price": 800,
+        "img": "images/p1.jpg"
     },
     {
         "id": "3",
-        "title": "Товар 3",
+        "title": "Индивидуальные очные занятия",
         "vendor_code": "333",
-        "description": "Описание 3",
-        "price": 300,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_003.jpg"
+        "description": "Если Вам комфортен узкий кург людей, то этот варинат для Вас. Только Вы и Ваш преподаватель",
+        "price": 1200,
+        "img": "images/p2.jpg"
     },
     {
         "id": "4",
-        "title": "Товар 4",
+        "title": "Индивидуальные онлайн занятия",
         "vendor_code": "444e",
-        "description": "Описание 4",
-        "price": 400,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_004.jpg"
+        "description": "Занятия тет-а-тет из любой точки мира. Вам понадобится лишь ноутбук и стабильный Интернет",
+        "price": 1100,
+        "img": "images/p3.jpg"
     },
     {
         "id": "5",
-        "title": "Товар 5",
+        "title": "Курсы подготовки к ЕГЭ",
         "vendor_code": "4445e",
-        "description": "Описание 6",
-        "price": 400,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/uso_005.jpg"
+        "description": "Экзамен - важный этап в жизни выпускника. Мы поможем справиться с этим препятствием.",
+        "price": 6000,
+        "img": "images/p4.jpg"
     },
     {
         "id": "6",
-        "title": "Товар 6",
+        "title": "Курсы подготовки к TCF",
         "vendor_code": "4446e",
-        "description": "Описание 6",
-        "price": 400,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_1.png"
+        "description": "Международный экзамен проверяет уровень вашего языка. Мы поможем вам в достижении цели, ради которой вы сдаете тест",
+        "price": 6500,
+        "img": "images/p5.jpg"
     },
     {
         "id": "7",
-        "title": "Товар 7",
+        "title": "Новый Год вместе",
         "vendor_code": "4447e",
-        "description": "Описание 7",
-        "price": 700,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_2.png"
+        "description": "Проведение тематического вечера по случаю празднования Нового Года. Обещаем - скучать не придётся!",
+        "price": 100,
+        "img": "images/p6.jpg"
     },
     {
         "id": "8",
-        "title": "Товар 8",
+        "title": "Гайд",
         "vendor_code": "4448e",
-        "description": "Описание 8",
-        "price": 800,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_3.png"
+        "description": "Гайд, который будет полезен Вам при изучении французского (в соответствии с международными стандартами)",
+        "price": 100,
+        "img": "images/p7.jpg"
     },
     {
         "id": "9",
-        "title": "Товар 9",
+        "title": "Два языка",
         "vendor_code": "444e",
-        "description": "Описание 9",
-        "price": 400,
-        "img": "https://raw.githubusercontent.com/vmarshirov/g06u28/main/images/1_4.png"
+        "description": "Для полиглотов! Если Вы изучаете параллельно два и более языка, то мы делаем вам приятную скидку на все категории",
+        "price": 800,
+        "img": "images/p8.jpg"
     },
     {
         "id": "10",
