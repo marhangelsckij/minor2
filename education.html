@@ -2,29 +2,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <meta charset="UTF-8" name="viewport" content="width=1366, initial-scale=1">
-   
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styleshop.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
     <title>Club de langues. Образование</title>
+   
 </head>
-
 <head>
-    <link rel="shortcut icon" href="images/icon.jpg"/>
+    <link rel="shortcut icon" href="./images/icon.jpg"/>
   </head>
-<body class="news">
+<div class="container">
+  <div class="card">
+  <body class="news">
     <header>
-      <div class="nav">
-        <ul>
-            <li class="home"><a href="inf.html"><font face="Fantasy">Главная</font></a></li>
-            <li class="tutorials"><a href="teachers.html"><font face="Fantasy">Преподаватели</font></a></li>
-            <li class="about"><a class="active" href="education.html"><font face="Fantasy">Образование</font></a></li>
+      <div class="nav"class="card-body">
+        <ul class="card-body">
+          <li class="home"><a href="inf.html"><font face="Fantasy">Главная</font></a></li>
+          <li class="tutorials"><a href="teachers.html"><font face="Fantasy">Преподаватели</font></a></li>
+          <li class="about"><a class="active" href="education.html"><font face="Fantasy">Образование</font></a></li>
         </ul>
       </div>
     </header>
   </body>
-  <video id="videooo" src="images/edu.mp4" autoplay loop muted playsinline="true" style="pointer-events: none;"></video>
+  </div>
+  <div class="card" id="gensh">
+    <video id="videooo" src="images/edu.mp4" autoplay loop muted playsinline style="pointer-events: none;"></video>
 
 <p>
     <a href="inf.html">
@@ -32,132 +40,8 @@
     </a>
 </p>
 <br>
-<div class="wrap">
-    <button class="button" onclick="location.href='#chj'">Магазин</a>
-        <link rel="stylesheet" href="styleshop.css">
-  </div>
 
 
-<div class="container"> <br><br><br>
-    <div class="card-body">
-        <h5 id="ner" class="shop" style="text-align: center; font-size: 25pt;"><font face="Fantasy">Магазин</font></h5>
-        <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-            <input name="q" type="hidden" value="search">
-            <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert"></ul>
-
-            <ul class="container" id="chj">
-                
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/bb.jpg" title="Групповые очные занятия" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Групповые очные занятия</h5>
-                    <p class="card-text">Проводим комфортные уроки. Особенность - коммуникация не только с учителем,
-                        но и с другими учениками</p>
-                    <input type="hidden" name="vendor_code" value="111">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p1.jpg" title="Групповые онлайн занятия" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Групповые онлайн занятия</h5>
-                    <p class="card-text">Прогресс не стоит на месте. Наши занятия вы сможете посещать из любой точки
-                        мира</p>
-                    <input type="hidden" name="vendor_code" value="222">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p2.jpg" title="Индивидуальные очные занятия" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Индивидуальные очные занятия</h5>
-                    <p class="card-text">Если Вам комфортен узкий кург людей, то этот варинат для Вас. Только Вы и
-                        Ваш преподаватель</p>
-                    <input type="hidden" name="vendor_code" value="333">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p3.jpg" title="Индивидуальные онлайн занятия" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Индивидуальные онлайн занятия</h5>
-                    <p class="card-text">Занятия тет-а-тет из любой точки мира. Вам понадобится лишь ноутбук и
-                        стабильный Интернет</p>
-                    <input type="hidden" name="vendor_code" value="444">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p4.jpg" title="Курсы подготовки к ЕГЭ" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Курсы подготовки к ЕГЭ</h5>
-                    <p class="card-text">Экзамен - важный этап в жизни выпускника. Мы поможем справиться с этим
-                        препятствием.</p>
-                    <input type="hidden" name="vendor_code" value="555">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p5.jpg" title="Курсы подготовки к TCF" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Курсы подготовки к TCF</h5>
-                    <p class="card-text">Международный экзамен проверяет уровень вашего языка. Мы поможем вам в
-                        достижении цели, ради которой вы сдаете тест </p>
-                    <input type="hidden" name="vendor_code" value="666">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p6.jpg" title="Новый год вместе" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Новый Год вместе</h5>
-                    <p class="card-text">Проведение тематического вечера по случаю празднования Нового Года. Обещаем - скучать не придётся!</p>
-                    <input type="hidden" name="vendor_code" value="777">
-                   <p class="card-text">
-                       Заказать
-                       <input class="w-25" type="number" name="amount" value="0">
-                   </p> 
-                   </li>
-
-                   <li style="width: 210px" class="colomn">
-                    <img src="./images/p7.jpg" title="Гайд" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Гайд</h5>
-                    <p class="card-text">Гайд, который будет полезен Вам при изучении французского (в соответствии с международными стандартами)</p>
-                    <input type="hidden" name="vendor_code" value="888">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-
-                <li style="width: 210px" class="colomn">
-                    <img src="./images/p8.jpg" title="Два языка" width="180px" height="120px" class="frame">
-                    <h5 class="card-title">Два языка</h5>
-                    <p class="card-text">Для полиглотов! Если Вы изучаете параллельно два и более языка, то мы делаем вам приятную скидку на все категории</p>
-                    <input type="hidden" name="vendor_code" value="999">
-                    <p class="card-text">
-                        Заказать
-                        <input class="w-25" type="number" name="amount" value="0">
-                    </p>
-                </li>
-            </ul>
-            <input class="btn-primary" style="background-color: #aef3c4; border-radius: 10px;" type="Submit" value="В корзину">
-        </form>
-    </div>
-
-</div>
 
 <div class="card-body">
             <h5 class='card-title text-center'>Магазин</h5>
